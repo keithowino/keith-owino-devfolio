@@ -1,0 +1,71 @@
+
+// SHARED ACROSS PLATFORMS
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    // reset
+    font-size: 100%
+    font: inherit
+    vertical-align: baseline
+    // end
+
+body
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5)
+    // box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5)
+    font-family: "Rokkitt", serif
+    font-size: 1em
+
+// reset
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+    display: block
+
+ol, ul 
+    list-style: none
+
+blockquote, q
+    quotes: none
+
+    &::before
+        content: ''
+        content: none
+
+    &::after
+        content: ''
+        content: none
+        
+table
+    border-collapse: collapse
+    border-spacing: 0
+// end
+
+p
+    font-size: 1.2em
+
+h3
+    font-weight: 700
+
+h4
+    text-transform: capitalize
+
+div
+    display: block
+
+/* media queries */
+
+@media screen and (orientation: portrait)
+    #lBannerTextOne
+        font-size: 1.40625em
+
+    #lBannerTextTwo
+        font-weight: 500
+        font-size: 1.5em
+
+    p
+        font-size: 1em
+        padding: 0 0.3125em
+
+
+/* end */

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  background-color: #fff;
+  line-height: 1.5; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.l-site-title {
+  text-align: center;
+  line-height: 4em;
+  text-transform: capitalize; }
+
+main {
+  margin-bottom: 4em; }
+
+.l-error-fix-options {
+  list-style: none; }
+
+.l-prank-text {
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold; }
+
+.l-prank-text-two {
+  text-align: center; }
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3em;
+  background-color: #fff; }
+
+.l-footer-p {
+  text-align: center; }
+
+.m-footnote-site-title-ref, .m-footnote-parent-site-ref {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500; }
+  .m-footnote-site-title-ref:hover, .m-footnote-parent-site-ref:hover {
+    color: rgba(129, 129, 129, 0.833); }
+
+.m-error-fix-options-a {
+  color: #00f;
+  text-decoration: none; }
+  .m-error-fix-options-a:hover {
+    color: #09dffb; }
+
+.m-error-fix-options-button-a {
+  text-transform: capitalize; }
+
+/*# sourceMappingURL=main.css.map */

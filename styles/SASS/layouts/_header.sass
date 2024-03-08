@@ -1,0 +1,29 @@
+
+// SHARED ACROSS PLATFORMS
+// .l-s-t-s
+//     line-height: 4em
+//     text-transform: uppercase
+//     text-align: center
+
+.nav-dir-list
+  list-style: none
+  display: flex
+
+.nav-item
+  padding: .25rem
+  font-weight: 700
+  color: rgba(255, 255, 255, .5)
+  background-color: transparent
+  border-bottom: .25rem solid transparent
+  text-transform: capitalize
+  margin-left: 1rem
+
+.nav-item
+  &:hover
+    border-bottom-color: rgba(255, 255, 255, .25)
+    color: rgba(255, 255, 255, .25)
+
+.nav-item
+  &:focus
+    color: #fff
+    border-bottom-color: #fff

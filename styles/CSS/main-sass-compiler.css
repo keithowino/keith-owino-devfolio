@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&family=Black+Ops+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  font-family: "Rokkitt", serif;
+  font-size: 1em;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, q::before {
+  content: "";
+  content: none;
+}
+blockquote::after, q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
+div {
+  display: block;
+}
+
+/* media queries */
+@media screen and (orientation: portrait) {
+  #lBannerTextOne {
+    font-size: 1.40625em;
+  }
+  #lBannerTextTwo {
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+    padding: 0 0.3125em;
+  }
+}
+/* end */
+.nav-dir-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  padding: 0.25rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+.nav-item:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-item:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.l-brand {
+  text-transform: uppercase;
+}
+
+#lBannerTextOne {
+  font-family: "Black Ops One", serif;
+  font-size: 3.75em;
+  color: #6b07dd;
+  text-transform: capitalize;
+}
+
+#lBannerTextTwo {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: serif;
+  font-size: 2em;
+}
+
+main {
+  margin: 2.5% auto;
+}
+
+.home-section {
+  display: block;
+}
+
+.about-section {
+  display: none;
+  text-align: left;
+}
+
+.progress-section {
+  display: none;
+}
+
+.contact-section {
+  display: none;
+}
+
+.project-dir {
+  background-color: #6b07dd;
+  color: #fff;
+}
+
+.lm-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lm-skills-skill {
+  padding: 1em 2em;
+  margin: 0 1em 1em;
+  font-size: 1em;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+}
+
+.m-footnote-site-title-ref, .inline-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.m-footnote-site-title-ref, .m-parent-site-ref {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+.m-footnote-site-title-ref:hover, .m-parent-site-ref:hover, .inline-btn:hover {
+  color: #6b07dd;
+}
+
+.btn-secondary, .btn-secondary, .btn-secondary {
+  color: #333;
+}
+
+.btn-secondary:hover, .btn-secondary:hover, .btn-secondary:hover {
+  color: #333;
+  text-shadow: none;
+}
+
+.inline-btn {
+  color: #1e00ff;
+}
+
+.m-form-one {
+  display: block;
+  margin: auto;
+}
+
+.m-form-label {
+  display: block;
+  text-align: left;
+}
+
+.m-form-item {
+  margin: 1em 0 1.5em;
+}
+
+.m-btn-universal {
+  background-color: #fff;
+  border-color: #fff;
+}
+.m-btn-universal:hover {
+  color: #fff;
+  background-color: #6b07dd;
+  border-color: #6b07dd;
+}
+
+.m-my-poster {
+  border-radius: 5%;
+}
+
+/*# sourceMappingURL=main-sass-compiler.css.map */
