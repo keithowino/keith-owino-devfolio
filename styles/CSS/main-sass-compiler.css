@@ -57,6 +57,11 @@ div {
   display: block;
 }
 
+iframe {
+  height: 20em;
+  width: 30em;
+}
+
 /* media queries */
 @media screen and (orientation: portrait) {
   #lBannerTextOne {
@@ -69,6 +74,10 @@ div {
   p {
     font-size: 1em;
     padding: 0 0.3125em;
+  }
+  iframe {
+    height: 10em;
+    width: 20em;
   }
 }
 /* end */
@@ -154,6 +163,12 @@ main {
   border-radius: 5px;
 }
 
+.lm-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .m-footnote-site-title-ref, .inline-btn {
   background-color: transparent;
   border: none;
@@ -183,11 +198,6 @@ main {
   color: #1e00ff;
 }
 
-.m-form-one {
-  display: block;
-  margin: auto;
-}
-
 .m-form-label {
   display: block;
   text-align: left;
@@ -209,6 +219,15 @@ main {
 
 .m-my-poster {
   border-radius: 5%;
+}
+
+.m-social-id {
+  font-size: 2em;
+  margin: 0.5em;
+  color: #fff;
+}
+.m-social-id:hover {
+  color: #6b07dd;
 }
 
 /*# sourceMappingURL=main-sass-compiler.css.map */
